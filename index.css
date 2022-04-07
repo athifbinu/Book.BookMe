@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.banner-image
+{
+    background-image: url('images/bookStore.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;    /*it is used to remove the repeat eliment */  /* vh values is height focus. px value is widthe are focus */
+    background-size: cover;       /*background-size: cover  it is used to background image are set in full screen widthe and height in responsive tyme;                         */ 
+}
+.book
+{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+nav
+{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+nav li
+{
+    list-style: none;
+}
+li a
+{
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+a:hover
+{
+    color: darkturquoise;
+    
+}
+
+.serche-Container
+{
+    text-align: center;
+    align-items: center;
+    margin-top: 90px;
+    position: relative;
+    width: 500px;
+    padding: 40px;
+}
+.serch-content
+{
+    text-align: center;
+    margin-top: 130px;
+    color: #fff;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.serch-box
+{
+    border-radius: 25px;
+    font-size: 17px;
+}
+.Search-button
+{
+   
+    width: 71px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease;
+    font-size: 14px;
+    height: 25px;
+    background-color: rgb(139 133 133 / 59%);
+    opacity: 0.8;
+    color: #fff;
+}
+.Search-button:hover
+{
+    opacity: 1;
+    cursor: pointer;
+    background-color: #DD0004; 
+    box-shadow:0 0 5px #DD0004,
+               0 0 20px #DD0004,
+               0 0 60px #DD0004,
+               0 0 150px #DD0004;
+}
+.button-div
+{
+    text-align: center;
+    padding-top: 27px;
+}
+
+
+@media (max-width:600px) {
+    nav
+     {
+        float: none;
+        display: block;
+        text-align: center;
+        font-size: 28px;
+        padding-top: 35px;
+     }    
+}
