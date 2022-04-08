@@ -99,6 +99,42 @@ a:hover
     text-align: center;
     padding-top: 27px;
 }
+/* .img-container
+{
+    display: flex;
+} */
+.img-section-1,.img-section-2,.img-section-3,.img-section-4
+{
+    display: flex;
+    width: 100%;
+    height: 243px;
+    overflow: scroll;
+    gap: 20px;
+    border: 5px solid black;
+    padding-top: 20px;
+    background-color: black;
+   
+}
+.Book-heading
+{
+    font-size: 23px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.Book-heading
+{
+    font-size: 23px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
 
 
 @media (max-width:600px) {
