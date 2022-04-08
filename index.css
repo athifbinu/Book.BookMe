@@ -125,6 +125,8 @@ a:hover
     padding-left: 30px;
     font-weight: bold;
     font-family: sans-serif;
+    color: #fff;
+    background-color: black;
 }
 .Book-heading
 {
