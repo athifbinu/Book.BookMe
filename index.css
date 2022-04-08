@@ -6,6 +6,7 @@
 body
 {
     margin: 0;
+    background-color: black;
 }
 .banner-image
 {
@@ -142,6 +143,16 @@ a:hover
 
 
 
+
+.copyright
+{
+    color: #fff;
+    text-align: center;
+    font-size: 9px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 8px;
+}
 
 @media (max-width:600px) {
     nav
